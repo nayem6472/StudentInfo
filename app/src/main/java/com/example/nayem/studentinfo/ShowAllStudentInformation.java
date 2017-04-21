@@ -2,7 +2,9 @@ package com.example.nayem.studentinfo;
 
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,10 +19,11 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowAllStudentInformation extends Fragment {
+public class ShowAllStudentInformation extends Fragment implements View.OnClickListener {
     private ListView list_data;
     DatabaseReference databaseReference;
     List<UserModel> studentLists;
+    FloatingActionButton floatingActionButton;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -29,6 +32,10 @@ public class ShowAllStudentInformation extends Fragment {
         list_data= (ListView) view.findViewById(R.id.listView);
         databaseReference= FirebaseDatabase.getInstance().getReference("students");
         studentLists=new ArrayList<>();
+
+        floatingActionButton= (FloatingActionButton) view.findViewById(R.id.fab);
+        floatingActionButton.setOnClickListener(this);
+
         return view;
     }
 
@@ -52,5 +59,12 @@ public class ShowAllStudentInformation extends Fragment {
 
             }
         });
+    }
+
+    @Override
+    public void onClick(View v) {
+        FragmentTransaction ft=getActivity().getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentContainer,new StudentRegistrationFragment());
+        ft.commit();
     }
 }
