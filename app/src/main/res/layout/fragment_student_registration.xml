@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nayem.studentinfo.StudentRegistrationFragment">
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/saveButton"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/saveButton"
+        android:layout_width="match_parent"
+        android:hint="Name"
+        android:id="@+id/nameEditText"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:hint="Id"
+        android:id="@+id/idEditText"
+        android:layout_below="@id/nameEditText"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:hint="Department"
+        android:id="@+id/departmentEditText"
+        android:layout_below="@id/idEditText"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:hint="Result"
+        android:id="@+id/resultEditText"
+        android:layout_below="@id/departmentEditText"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:hint="Address"
+        android:id="@+id/addressEditText"
+        android:layout_below="@id/resultEditText"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

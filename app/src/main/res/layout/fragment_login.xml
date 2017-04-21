@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nayem.studentinfo.LoginFragment">
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:id="@+id/loginUserName"
+        android:hint="User name"
+        android:inputType="textEmailAddress"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:id="@+id/loginPassword"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:layout_below="@id/loginUserName"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:id="@+id/loginButton"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/loginPassword"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Create Account ?"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/loginStateChanged"
+        android:layout_below="@id/loginButton"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
