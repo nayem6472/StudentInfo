@@ -3,6 +3,7 @@ package com.example.nayem.studentinfo;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -74,6 +75,9 @@ public class StudentRegistrationFragment extends Fragment implements View.OnClic
             UserModel userModel=new UserModel(uniqueId,name,id,department,result,address);
             databaseReference.child(uniqueId).setValue(userModel);
             Toast.makeText(getActivity(),"Student Information added",Toast.LENGTH_SHORT).show();
+            FragmentTransaction fragmentTransaction=getActivity().getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fragmentContainer,new ShowAllStudentInformation());
+            fragmentTransaction.commit();
         }else{
             Toast.makeText(getActivity(),"You Should Enter name and ID",Toast.LENGTH_SHORT).show();
         }
