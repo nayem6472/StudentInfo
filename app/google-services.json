@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "1053665991966",
+    "firebase_url": "https://my-project-fb8b5.firebaseio.com",
+    "project_id": "my-project-fb8b5",
+    "storage_bucket": "my-project-fb8b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053665991966:android:2bb05aeedd281cf0",
+        "android_client_info": {
+          "package_name": "com.example.nayem.tourmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053665991966-s2v09l94sjcc15de81d6lh9i9t9483tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVxwEw2FPDDaOLmk9ME2Lb8yvZK7vawA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053665991966:android:12be173ba5046323",
+        "android_client_info": {
+          "package_name": "com.example.nayem.firebaseauthentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053665991966-s2v09l94sjcc15de81d6lh9i9t9483tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVxwEw2FPDDaOLmk9ME2Lb8yvZK7vawA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053665991966:android:0e17a110ad6627cd",
+        "android_client_info": {
+          "package_name": "com.example.nayem.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053665991966-s2v09l94sjcc15de81d6lh9i9t9483tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVxwEw2FPDDaOLmk9ME2Lb8yvZK7vawA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053665991966:android:0076a8dcdfc14cbc",
+        "android_client_info": {
+          "package_name": "com.example.nayem.studentinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1053665991966-s2v09l94sjcc15de81d6lh9i9t9483tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwVxwEw2FPDDaOLmk9ME2Lb8yvZK7vawA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
